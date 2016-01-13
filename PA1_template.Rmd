@@ -41,7 +41,7 @@ str(activity)
 ```
 
 1.7. Looking at the first rows of the CSV file
-```{r headdata, echo=TRUE}
+```{r headdata, results="asis", echo=TRUE, cache=TRUE}
 head(activity)
 ```
 

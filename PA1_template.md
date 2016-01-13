@@ -1,5 +1,6 @@
 # Reproducible Research: Peer Assessment 1
 
+
   
 ## 1. Loading and preprocessing the data  
   
@@ -70,15 +71,13 @@ str(activity)
 head(activity)
 ```
 
-```
-##   steps       date interval
-## 1    NA 2012-10-01        0
-## 2    NA 2012-10-01        5
-## 3    NA 2012-10-01       10
-## 4    NA 2012-10-01       15
-## 5    NA 2012-10-01       20
-## 6    NA 2012-10-01       25
-```
+  steps       date interval
+1    NA 2012-10-01        0
+2    NA 2012-10-01        5
+3    NA 2012-10-01       10
+4    NA 2012-10-01       15
+5    NA 2012-10-01       20
+6    NA 2012-10-01       25
 
 The file consists of three columns:  
 • STEPS, class = integer. Number of steps taking in a 5-minute interval (missing values are coded as NA)    
